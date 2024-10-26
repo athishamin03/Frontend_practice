@@ -116,11 +116,10 @@ button:hover {
     margin-bottom: 1%;
 }
 .img{
-    max-width: 400px;
-    float: right;
+    width: 500px;
     position: absolute;
-    top: 0px; /* Distance from the top */
-    right: 800px; /* Distance from the right */
-  
+    top:0px;
+    right: 700px; 
+    
 }
 
