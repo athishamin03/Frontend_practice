@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: rgb(51, 1, 87);
+}
+
+.navbar{
+    background-color: purple;
+    color: orange;
+    width:1600px;
+    height:80px;
+    margin:0%;
+}
+.icon{
+    width:180px;
+    float:left;
+    height:70px;
+}
+.logo{
+    color:orange;
+    font-size: 28px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+button:hover {
+    background-color:rgb(237, 95, 0);
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+.title h1{
+    color:white;
+    font-family: 'Times New Roman';
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    padding-top: 80px;
+}
+.section{
+    color:rgb(51, 1, 87);
+    text-align: left;
+    position:absolute;
+    left: 620px;
+    top: 475px;
+    background-color: white;
+    border-radius: 10px;
+}
+.section p.phone::before {
+    content: "\260E";  /* Phone symbol */
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 16px;   /* Adjust size as needed */
+    
+  }
+.section p.message::before{
+    content: "\2709";  /* Envelope symbol */
+  margin-right: 8px; /* Space between icon and text */
+  font-size: 16px;   /* Adjust size as needed */
+  
+}
+.section p.phone{
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.section p.location::before{
+    content: "\1F4CD";  /* Location pin symbol */
+  margin-right: 2px;  /* Space between icon and text */
+  font-size: 16px;
+}
+.section p.location{
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.section p.message{
+    padding-left: 50px;
+}
+.container{
+    
+    text-align: center;    
+}
+.container img{
+    width: 125px;
+    padding-top: 50px;
+}
+.container h2{
+    color: orangered;
+}
+.container p{
+    color: white;
+}
+.container span{
+    color: orangered;
+}
